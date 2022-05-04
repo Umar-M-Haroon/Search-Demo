@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var dataManager: DataManager = DataManager()
+    @State var searchString: String = ""
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            // load datamanager view data from func, use a search string
+            List(dataManager.viewData(filterString: searchString), id: \.self) { data in
+                //load via text
+                Text(data)
+            }
+            .searchable(text: $searchString, prompt: "Search")
+            .navigationTitle("Search Demo")
+        }
     }
 }
 

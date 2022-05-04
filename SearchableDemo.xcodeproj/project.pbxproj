@@ -11,6 +11,7 @@
 		1D5AED652822126C00FE9ABD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5AED642822126C00FE9ABD /* ContentView.swift */; };
 		1D5AED672822126D00FE9ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5AED662822126D00FE9ABD /* Assets.xcassets */; };
 		1D5AED6A2822126D00FE9ABD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5AED692822126D00FE9ABD /* Preview Assets.xcassets */; };
+		1D5AED712822127800FE9ABD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5AED702822127800FE9ABD /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1D5AED642822126C00FE9ABD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D5AED662822126D00FE9ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D5AED692822126D00FE9ABD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D5AED702822127800FE9ABD /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1D5AED622822126C00FE9ABD /* SearchableDemoApp.swift */,
 				1D5AED642822126C00FE9ABD /* ContentView.swift */,
+				1D5AED702822127800FE9ABD /* DataManager.swift */,
 				1D5AED662822126D00FE9ABD /* Assets.xcassets */,
 				1D5AED682822126D00FE9ABD /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D5AED652822126C00FE9ABD /* ContentView.swift in Sources */,
+				1D5AED712822127800FE9ABD /* DataManager.swift in Sources */,
 				1D5AED632822126C00FE9ABD /* SearchableDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
